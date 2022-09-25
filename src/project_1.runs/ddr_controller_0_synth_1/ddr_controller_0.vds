@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Apr 10 22:25:10 2022
+# Process ID: 81384
+# Current directory: /home/kowareta/workspace/A.M/1/project_1/project_1.runs/ddr_controller_0_synth_1
+# Command line: vivado -log ddr_controller_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ddr_controller_0.tcl
+# Log file: /home/kowareta/workspace/A.M/1/project_1/project_1.runs/ddr_controller_0_synth_1/ddr_controller_0.vds
+# Journal file: /home/kowareta/workspace/A.M/1/project_1/project_1.runs/ddr_controller_0_synth_1/vivado.jou
+# Running On: kowareta, OS: Linux, CPU Frequency: 3700.000 MHz, CPU Physical cores: 12, Host memory: 16736 MB
+#-----------------------------------------------------------
+source ddr_controller_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/kowareta/workspace/A.M/1/project_1'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository '/home/kowareta/workspace/A.M/1/project_1' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is '/home/kowareta/workspace/A.M/1/project_1/project_1.runs/ddr_controller_0_synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top ddr_controller_0 -part xc7a200tfbg676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 81436
+ERROR: [Synth 8-1766] cannot open include file ddr3_model_parameters.vh [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:121]
+ERROR: [Synth 8-1031] TDLLK is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:128]
+ERROR: [Synth 8-1031] DM_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:147]
+ERROR: [Synth 8-1031] BA_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:148]
+ERROR: [Synth 8-1031] ADDR_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:149]
+ERROR: [Synth 8-1002] DQ_BITS is not a constant [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:150]
+ERROR: [Synth 8-1002] DQS_BITS is not a constant [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:151]
+ERROR: [Synth 8-1002] DQS_BITS is not a constant [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:152]
+ERROR: [Synth 8-1002] DQS_BITS is not a constant [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:153]
+ERROR: [Synth 8-1002] DQS_BITS is not a constant [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:177]
+ERROR: [Synth 8-1031] ADDR_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:185]
+ERROR: [Synth 8-1031] BA_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:185]
+ERROR: [Synth 8-1031] BL_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:187]
+ERROR: [Synth 8-1031] BA_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:246]
+ERROR: [Synth 8-1031] BA_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:247]
+ERROR: [Synth 8-1031] BA_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:248]
+ERROR: [Synth 8-1031] BA_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:249]
+ERROR: [Synth 8-1031] ROW_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:250]
+ERROR: [Synth 8-1031] BA_BITS is not declared [/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv:250]
+Failed to read verilog '/home/kowareta/workspace/A.M/1/project_1/project_1.gen/sources_1/ip/ddr_controller_0/src/ddr3_model.sv'
+INFO: [Common 17-83] Releasing license: Synthesis
+9 Infos, 1 Warnings, 0 Critical Warnings and 20 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 10 22:25:22 2022...

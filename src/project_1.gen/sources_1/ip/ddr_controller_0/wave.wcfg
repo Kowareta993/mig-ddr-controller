@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="60,536.374593 ns"></ZoomStartTime>
+      <ZoomEndTime time="62,968.374594 ns"></ZoomEndTime>
+      <Cursor1Time time="62,562.374593 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="109"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject type="logic" fp_name="/tb/sys_rst_n">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_rst">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_clk_i">
+      <obj_property name="ElementShortName">sys_clk_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_clk_p">
+      <obj_property name="ElementShortName">sys_clk_p</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_clk_n">
+      <obj_property name="ElementShortName">sys_clk_n</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/clk_ref_i">
+      <obj_property name="ElementShortName">clk_ref_i</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/clk_ref_p">
+      <obj_property name="ElementShortName">clk_ref_p</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/clk_ref_n">
+      <obj_property name="ElementShortName">clk_ref_n</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/ddr3_reset_n">
+      <obj_property name="ElementShortName">ddr3_reset_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/init_calib_complete">
+      <obj_property name="ElementShortName">init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/controller/u_mig_7series_0/app_addr">
+      <obj_property name="ElementShortName">app_addr[27:0]</obj_property>
+      <obj_property name="ObjectShortName">app_addr[27:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/controller/u_mig_7series_0/app_cmd">
+      <obj_property name="ElementShortName">app_cmd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">app_cmd[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_en">
+      <obj_property name="ElementShortName">app_en</obj_property>
+      <obj_property name="ObjectShortName">app_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/controller/u_mig_7series_0/app_wdf_data">
+      <obj_property name="ElementShortName">app_wdf_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_wdf_end">
+      <obj_property name="ElementShortName">app_wdf_end</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_end</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/controller/u_mig_7series_0/app_wdf_mask">
+      <obj_property name="ElementShortName">app_wdf_mask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_mask[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_wdf_wren">
+      <obj_property name="ElementShortName">app_wdf_wren</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_wren</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/controller/u_mig_7series_0/app_rd_data">
+      <obj_property name="ElementShortName">app_rd_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_rd_data_end">
+      <obj_property name="ElementShortName">app_rd_data_end</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_rd_data_valid">
+      <obj_property name="ElementShortName">app_rd_data_valid</obj_property>
+      <obj_property name="ObjectShortName">app_rd_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_rdy">
+      <obj_property name="ElementShortName">app_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_rdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_wdf_rdy">
+      <obj_property name="ElementShortName">app_wdf_rdy</obj_property>
+      <obj_property name="ObjectShortName">app_wdf_rdy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_sr_req">
+      <obj_property name="ElementShortName">app_sr_req</obj_property>
+      <obj_property name="ObjectShortName">app_sr_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_ref_req">
+      <obj_property name="ElementShortName">app_ref_req</obj_property>
+      <obj_property name="ObjectShortName">app_ref_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_zq_req">
+      <obj_property name="ElementShortName">app_zq_req</obj_property>
+      <obj_property name="ObjectShortName">app_zq_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_sr_active">
+      <obj_property name="ElementShortName">app_sr_active</obj_property>
+      <obj_property name="ObjectShortName">app_sr_active</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_ref_ack">
+      <obj_property name="ElementShortName">app_ref_ack</obj_property>
+      <obj_property name="ObjectShortName">app_ref_ack</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/controller/u_mig_7series_0/app_zq_ack">
+      <obj_property name="ElementShortName">app_zq_ack</obj_property>
+      <obj_property name="ObjectShortName">app_zq_ack</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/controller/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_cmd">
+      <obj_property name="ElementShortName">client_cmd[1:0]</obj_property>
+      <obj_property name="ObjectShortName">client_cmd[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_en">
+      <obj_property name="ElementShortName">client_en[1:0]</obj_property>
+      <obj_property name="ObjectShortName">client_en[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_w_data">
+      <obj_property name="ElementShortName">client_w_data[1:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">client_w_data[1:0][63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_addr">
+      <obj_property name="ElementShortName">client_addr[1:0][27:0]</obj_property>
+      <obj_property name="ObjectShortName">client_addr[1:0][27:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_rdy">
+      <obj_property name="ElementShortName">client_rdy[1:0]</obj_property>
+      <obj_property name="ObjectShortName">client_rdy[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_r_data">
+      <obj_property name="ElementShortName">client_r_data[1:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">client_r_data[1:0][63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_r_data_valid">
+      <obj_property name="ElementShortName">client_r_data_valid[1:0]</obj_property>
+      <obj_property name="ObjectShortName">client_r_data_valid[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_w_done">
+      <obj_property name="ElementShortName">client_w_done[1:0]</obj_property>
+      <obj_property name="ObjectShortName">client_w_done[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

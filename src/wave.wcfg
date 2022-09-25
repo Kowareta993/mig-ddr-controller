@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.000001 ns"></ZoomEndTime>
+      <Cursor1Time time="698.250000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="105"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject type="logic" fp_name="/tb/sys_rst_n">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_rst">
+      <obj_property name="ElementShortName">sys_rst</obj_property>
+      <obj_property name="ObjectShortName">sys_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_clk_i">
+      <obj_property name="ElementShortName">sys_clk_i</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_clk_p">
+      <obj_property name="ElementShortName">sys_clk_p</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/sys_clk_n">
+      <obj_property name="ElementShortName">sys_clk_n</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/clk_ref_i">
+      <obj_property name="ElementShortName">clk_ref_i</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/clk_ref_p">
+      <obj_property name="ElementShortName">clk_ref_p</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/clk_ref_n">
+      <obj_property name="ElementShortName">clk_ref_n</obj_property>
+      <obj_property name="ObjectShortName">clk_ref_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/ddr3_reset_n">
+      <obj_property name="ElementShortName">ddr3_reset_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb/init_calib_complete">
+      <obj_property name="ElementShortName">init_calib_complete</obj_property>
+      <obj_property name="ObjectShortName">init_calib_complete</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_cmd">
+      <obj_property name="ElementShortName">client_cmd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">client_cmd[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_en">
+      <obj_property name="ElementShortName">client_en[4:0]</obj_property>
+      <obj_property name="ObjectShortName">client_en[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_w_data">
+      <obj_property name="ElementShortName">client_w_data[4:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">client_w_data[4:0][63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_addr">
+      <obj_property name="ElementShortName">client_addr[4:0][27:0]</obj_property>
+      <obj_property name="ObjectShortName">client_addr[4:0][27:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_rdy">
+      <obj_property name="ElementShortName">client_rdy[4:0]</obj_property>
+      <obj_property name="ObjectShortName">client_rdy[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_r_data">
+      <obj_property name="ElementShortName">client_r_data[4:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">client_r_data[4:0][63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_r_data_valid">
+      <obj_property name="ElementShortName">client_r_data_valid[4:0]</obj_property>
+      <obj_property name="ObjectShortName">client_r_data_valid[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_w_done">
+      <obj_property name="ElementShortName">client_w_done[4:0]</obj_property>
+      <obj_property name="ObjectShortName">client_w_done[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_start">
+      <obj_property name="ElementShortName">client_start[4:0]</obj_property>
+      <obj_property name="ObjectShortName">client_start[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_test_addr">
+      <obj_property name="ElementShortName">client_test_addr[4:0][27:0]</obj_property>
+      <obj_property name="ObjectShortName">client_test_addr[4:0][27:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_result">
+      <obj_property name="ElementShortName">client_result[4:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">client_result[4:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb/client_finished">
+      <obj_property name="ElementShortName">client_finished[4:0]</obj_property>
+      <obj_property name="ObjectShortName">client_finished[4:0]</obj_property>
+   </wvobject>
+</wave_config>
